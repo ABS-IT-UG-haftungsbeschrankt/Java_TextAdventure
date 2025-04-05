@@ -1,8 +1,9 @@
 # adventure_maven
 ```mermaid
   graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+      Game-->House;
+      Game-->Player;
+      Game-->Renderer;
+      House-->Generator;
+      House-->Room
 ```
